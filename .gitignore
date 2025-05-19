@@ -1,0 +1,24 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore model files
+*.pkl
+
+# Ignore large image folders if not needed
+Images/
